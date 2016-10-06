@@ -1,0 +1,178 @@
+*{
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}
+header{
+	position: fixed;
+    width: 100%;
+}
+body{
+	background-image: url("fondo6jpg.jpg");
+	background-repeat: no-repeat;
+	overflow:auto;
+}
+img{
+	width: 200px;
+    height: 48px;
+    margin-left: auto;
+    margin-right: auto;
+}
+section , #contenedor{
+	width: 100%;
+	margin-top: 7%;
+	padding-left: 1%;
+	padding-right: 1%;
+	display: inline-block;
+	padding-bottom: 50%;
+	white-space: nowrap;
+}
+#trello{
+	width: 100px;
+	height: 30px;
+	color: white;
+	font-size: 180%;
+	display: inline-block;
+
+}
+#addList{
+	width: 300px;
+	height: 40px;
+	padding: 1% 2% ;
+	background-color: black;
+	opacity: 0.6;
+	color: white;
+	border-radius: 3px;
+	cursor: pointer;
+	display: inline-block;
+
+}
+#addList:hover{
+	background-color: black;
+	opacity: 0.8;
+	color: white;
+}
+.createList{
+	width: 300px;
+	background-color: #E2E4E6;
+	display: inline-block;
+	margin-left: 0%;
+	margin-right: 3%;
+	margin-top: 0.5%;
+	vertical-align: top;
+	border-radius: 3px;
+	padding: 0px;
+}
+.divClass{
+	background-color: #E2E4E6;
+	width: 296px;
+	font-weight: bold;
+	padding: 9px 5px 5px 14px;
+	border-radius: 3px;
+}
+.divEnlace{
+	background-color: #E2E4E6;
+	width: 300px;
+	padding: 9px 5px 6px 14px;
+	border-radius: 0px 0px 3px 3px;
+	text-decoration: none;
+	cursor: pointer;
+
+}
+.divEnlace:hover{
+	background-color: black;
+	opacity: 0.2;
+	text-decoration: underline;
+}
+.cardEnlace{
+	color: #9B9B9C;
+}
+.cardEnlace:hover{
+	color: black;
+}
+.fondoForm{
+	background-color: #E2E4E6;
+	width: 300px;
+	padding: 1px;
+	border-radius: 3px;
+	display: inline-block;
+	margin-top: 5px;
+	margin-left: 4px;
+	margin-bottom: 4px;
+	margin-right: 4px;
+	vertical-align: top;
+}
+.inputText{
+	width: 290px;
+	height: 38px;
+	padding: 0.5% 2%;
+	background-color: #D7D9DB;
+	border-radius: 5px;
+	margin-top: 5px;
+	margin-left: 4px;
+	margin-bottom: 4px;
+	display: block;
+	border-color: #aaa;
+	box-shadow: inset 0 1px 8px rgba(0,0,0,.15);
+}
+.boton {
+	width: 80px;
+	height: 34px;
+	background-color: #449D44;
+	border-radius: 5px;
+	border: 1px solid #449D44;
+	margin-left: 4px;
+	margin-bottom: 4px;
+	color: white;
+	font-weight: bold;
+	font-size: 120%;
+}
+.icon-cross{
+	font-size: 140%;
+	margin-left: 20px;
+	border: none;
+	color: gray;
+	background-color: #E2E4E6;
+}
+.icon-cross:hover{
+	color: black;
+}
+.navbar-form{
+  width: 100%;
+  background-color: #020D2B;
+  opacity: 0.5;
+  margin: 0px;
+  padding: 1%;
+}
+.textArea{
+	width: 284px;
+	border-radius: 3px;
+	display: block;
+	padding: 16px;	
+}
+.divTextArea{
+	padding: 7px;
+}
+.botonAdd{
+	width: 80px;
+	height: 34px;
+	background-color: #449D44;
+	border-radius: 5px;
+	border: 1px solid #449D44;
+	margin-left: 2px;
+	margin-bottom: 2px;
+	margin-top: 8px;
+	color: white;
+	font-weight: bold;
+	font-size: 120%;
+}
+.divCard{
+	width: 284px;
+	overflow: hidden;
+	border: 1px solid #E2E4E6;
+    margin-left: 7px;
+    margin-bottom: 7px;
+    padding: 15px;
+    border-radius: 3px;
+	background-color: white;
+}
